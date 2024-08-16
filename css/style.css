@@ -1,0 +1,16 @@
+#result-erea {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #106635;
+    padding: 8px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.dxtn{
+    color: #106635;
+}
+.back-dxtn{
+    color: aliceblue;
+    background-color: #106635;
+}
