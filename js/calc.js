@@ -8,7 +8,13 @@ $('input[type="number"]').bind('input', function () {
     for(let i = 0; i < stars.length; i++){
         Allnum += Number(stars[i].value);
     }
-    
+
+    var photo = document.getElementsByName('photo');
+    for(let i = 0; i < photo.length; i++){
+        var a = Number(photo[i].value);
+        All += 1000*a;
+    }
+
     var t_shirts = document.getElementsByName('t-shirts');
     for(let i = 0; i < t_shirts.length; i++){
         var a = Number(t_shirts[i].value);
